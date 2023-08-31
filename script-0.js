@@ -12831,7 +12831,7 @@ Url: ${Wr(t)}`), !0)
         const r = document.getElementById("app");
         r.innerHTML = e0()
     }
-    const Gt = new XS("/hakodume");
+    const Gt = new XS("/");
 
     function wt(t, e) {
         const r = e != null && e.queryString ? `?${e.queryString}` : "";
