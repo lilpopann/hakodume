@@ -26903,7 +26903,7 @@ ${t}`
         Rre = {
             CAMERA: "[b]注目[/b]　We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
             STYLE: "[b]注目[/b]　おそらく、このブラウザが古いそうなので、、今遊ぼうとしているゲームをまともに表示することが不可能",
-            TOS: "これ以上つづけることは、[tos]利用契約[/tos]を了知しましたとも同然"
+            TOS: "これ以上つづけることで、[tos]利用契約[/tos]を了知したことを認めます"
         },
         Nre = {
             BRANCH: yre,
