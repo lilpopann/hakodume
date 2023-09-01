@@ -7508,7 +7508,7 @@ var Nie = eL(($ie, bA) => {
             return String(t).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
         }
         static sanitize(t) {
-            const r = this.sanitizeInput(t).replace(/'/g, "\u2019");
+            const r = this.sanitizeInput(t)
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(t) {
