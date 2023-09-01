@@ -6118,7 +6118,7 @@ var tae = M$((nae, nI) => {
 			return hikizan.toString()
 		}
 		else {
-			return "ﾔﾒﾃｪｰ!! ｺﾚｲｼﾞｮｳﾊｲﾚﾏｾﾝ!"
+			return "ｺﾚｲｼﾞｮｳﾊ､ｲﾚﾏｾﾝ!!"
 		}
 	}
 
@@ -15508,7 +15508,7 @@ ${r.message}`,
         }
     }
     const eq = {
-            BACK: "もどる",
+            BACK: "戻る",
             CANCEL: "キャンセル",
             CLOSE: "閉じる",
             CONFIRM: "確認",
@@ -15520,7 +15520,7 @@ ${r.message}`,
             NO: "いいえ",
             PLAY: "あそぶ！",
             PUBLISH: "投稿",
-            REMOVE: "Remove",
+            REMOVE: "削除",
             RESET: "リセット",
             SUBMIT: "送信",
             TRY_AGAIN: "もう一度",
@@ -26870,14 +26870,14 @@ ${t}`
             NEW: "新着",
             PLAYED_ON: "日付",
             REMOVE: {
-                CONFIRM: "それでいい？",
-                DESCRIPTION: `確認したらこの記録はもう戻せない.`,
-                MANAGE: "この記録を削除？",
-                TITLE: "本当にいいんですか？"
+                CONFIRM: "確認中",
+                DESCRIPTION: `確定した場合は、記録は戻せない`,
+                MANAGE: "この記録を消す",
+                TITLE: "本当によろしい？"
             }
         },
         Are = {
-            EMPTY: "まだ一回も遊んでいないでしょう？",
+            EMPTY: "まだ一回も遊んでいないだろう？",
             MANAGE: "編集",
             TITLE: "記録一覧"
         },
@@ -26889,9 +26889,9 @@ ${t}`
             }
         },
         Ire = {
-            GAME_FULL: "そのロビーは満員",
+            GAME_FULL: "その部屋は満員",
             GAME_STARTED: "そのゲームはすでに始まっている",
-            ROOM_NOT_FOUND: "そのルームは作っていない"
+            ROOM_NOT_FOUND: "その部屋は立っていない"
         },
         Cre = {
             GAME_FULL: "そのロビーは満員",
@@ -26902,7 +26902,7 @@ ${t}`
         },
         Rre = {
             CAMERA: "[b]注目[/b]　We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
-            STYLE: "[b]注目[/b]　おそらく、このブラウザが古いそうなので、、今遊ぼうとしているゲームをまともに表示することが不可能",
+            STYLE: "[b]注目[/b]　おそらく、このブラウザが古いため、今遊ぼうとしているゲームを正確に表示することができない",
             TOS: "これ以上つづけることで、[tos]利用契約[/tos]を了知したことを認めます"
         },
         Nre = {
