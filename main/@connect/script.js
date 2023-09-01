@@ -26871,7 +26871,7 @@ ${t}`
             PLAYED_ON: "日付",
             REMOVE: {
                 CONFIRM: "確認中",
-                DESCRIPTION: `確定した場合は、記録は戻せない`,
+                DESCRIPTION: `決定した場合は、記録は戻せない`,
                 MANAGE: "この記録を消す",
                 TITLE: "本当によろしい？"
             }
