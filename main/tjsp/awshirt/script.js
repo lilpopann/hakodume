@@ -26447,7 +26447,7 @@ ${t}`
                             action: "submit",
                             drawingIndex: this.drawingIndex,
                             sloganIndex: this.sloganIndex
-                        })
+                        });
                     } catch (e) {
                         this.isSubmitting = !1, this.$handleEcastError(e)
                     }
@@ -26900,7 +26900,7 @@ ${t}`
                     this.hasSubmit = !1
                 },
                 onInput(e) {
-                    this.resetError(), this.quote = QA(e)
+                    this.resetError(), this.quote = e
                 },
                 async onSelectAvatar(e) {
                     if (!!this.player.responseKey) try {
@@ -27047,7 +27047,7 @@ ${t}`
                     this.error && (this.error = "")
                 },
                 onInput(e) {
-                    this.resetError(), this.suggestion = QA(e)
+                    this.resetError(), this.suggestion = e
                 },
                 async onSubmit() {
                     if (!this.suggestion.trim().length) {
@@ -27382,7 +27382,7 @@ ${t}`
                     this.error && (this.error = "")
                 },
                 async onInput(e) {
-                    this.resetError(), this.slogan = QA(e), await this.autoSubmit()
+                    this.resetError(), this.slogan = e, await this.autoSubmit()
                 },
                 async onSubmit() {
                     if (!this.slogan.length) {
@@ -27391,6 +27391,7 @@ ${t}`
                     }
                     this.isSubmitting = !0;
                     try {
+						console.log(`ON_SUBMIT -> ${this.slogan}`)
                         await this.$ecast.updateText(this.player.textKey, this.slogan), await this.$ecast.updateObject(this.player.responseKey, {
                             action: "submit"
                         })
