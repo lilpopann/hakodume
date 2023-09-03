@@ -15609,17 +15609,17 @@ ${r.message}`,
                 WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "再接続されました",
+                SUBTEXT: "お楽しみをつづけてください！"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "接続が中断されました",
+                    SUBTEXT: "再接続を試行中（5回中{attempt}回）"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "ゲームによって接続が中断されました",
+                    SUBTEXT: "再接続を試しているからお待ちください"
                 }
             }
         },
