@@ -25332,7 +25332,7 @@ ${t}`
         },
         Fte = {
             BUTTON_FIGHT: "開戦",
-            QUOTE_CHANGE: "変更",
+            QUOTE_CHANGE: "更新",
             QUOTE_LABEL: "勝利セリフ",
             QUOTE_SET: "変更"
         },
