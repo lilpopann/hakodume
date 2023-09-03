@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "jackbox-font";
+    src: url('font.eot');
+	src: url('font.eot?#iefix') format('embedded-opentype'),
+	   url('font.woff2') format('woff2'),
+       url('font.woff') format('woff'),
+       url('font.ttf')  format('truetype');
+}
+
+.textbox-font {
+    font-family: 'jackbox-font';
+}
+
 .fallback {
     height: 100%;
     font-size: 18px;
@@ -136,7 +149,7 @@
     --textSecondary: #505050;
     --textButton: #f5f7f7;
     background: var(--backgroundPrimary);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     font-size: 10px;
     font-weight: 700;
     color: var(--textPrimary)
@@ -160,7 +173,7 @@
     border-radius: 12px;
     font-size: 18px;
     font-weight: 700;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     background-color: var(--accent);
     color: var(--textButton);
     line-height: 1.5;
@@ -405,7 +418,7 @@
 
 .slide .text[data-v-c4d5a30d] {
     text-align: left;
-    font-family: Helvetica, Arial, sans-serif
+    font-family: 'jackbox-font';
 }
 
 .slide .text h3[data-v-c4d5a30d] {
@@ -561,7 +574,7 @@
     border: 1px solid #666;
     border-radius: 10px 10px 0 0;
     background: rgba(50, 50, 50, .5);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'jackbox-font';
     font-weight: 700;
     font-size: 12px;
     transition: bottom .25s;
@@ -791,7 +804,7 @@
     --textSecondary: #505050;
     --textButton: #f5f7f7;
     background: var(--backgroundPrimary);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     font-size: 10px;
     font-weight: 700;
     color: var(--textPrimary)
@@ -815,7 +828,7 @@
     border-radius: 12px;
     font-size: 18px;
     font-weight: 700;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     background-color: var(--accent);
     color: var(--textButton);
     line-height: 1.5;
@@ -1079,7 +1092,7 @@
     border: 1px solid #666;
     border-radius: 10px 10px 0 0;
     background: rgba(50, 50, 50, .5);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'jackbox-font';
     font-weight: 700;
     font-size: 12px;
     text-align: center;
@@ -1130,7 +1143,7 @@
     --textSecondary: #505050;
     --textButton: #f5f7f7;
     background: var(--backgroundPrimary);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     font-size: 10px;
     font-weight: 700;
     color: var(--textPrimary)
@@ -1154,7 +1167,7 @@
     border-radius: 12px;
     font-size: 18px;
     font-weight: 700;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     background-color: var(--accent);
     color: var(--textButton);
     line-height: 1.5;
@@ -1332,7 +1345,7 @@
     height: 100%;
     font-size: 14px;
     overflow-y: scroll;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     font-weight: 700;
     color: #333
 }
@@ -1428,7 +1441,7 @@ hr[data-v-a7272d53] {
     --textSecondary: #505050;
     --textButton: #f5f7f7;
     background: var(--backgroundPrimary);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     font-size: 10px;
     font-weight: 700;
     color: var(--textPrimary)
@@ -1452,7 +1465,7 @@ hr[data-v-a7272d53] {
     border-radius: 12px;
     font-size: 18px;
     font-weight: 700;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     background-color: var(--accent);
     color: var(--textButton);
     line-height: 1.5;
@@ -1668,7 +1681,7 @@ hr[data-v-a7272d53] {
     --textSecondary: #505050;
     --textButton: #f5f7f7;
     background: var(--backgroundPrimary);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     font-size: 10px;
     font-weight: 700;
     color: var(--textPrimary)
@@ -1692,7 +1705,7 @@ hr[data-v-a7272d53] {
     border-radius: 12px;
     font-size: 18px;
     font-weight: 700;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     background-color: var(--accent);
     color: var(--textButton);
     line-height: 1.5;
@@ -1917,7 +1930,7 @@ button.twitch[data-v-adb60058] {
     --textSecondary: #505050;
     --textButton: #f5f7f7;
     background: var(--backgroundPrimary);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     font-size: 10px;
     font-weight: 700;
     color: var(--textPrimary)
@@ -1941,7 +1954,7 @@ button.twitch[data-v-adb60058] {
     border-radius: 12px;
     font-size: 18px;
     font-weight: 700;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     background-color: var(--accent);
     color: var(--textButton);
     line-height: 1.5;
@@ -2285,7 +2298,7 @@ button.twitch[data-v-adb60058] {
     --textSecondary: #505050;
     --textButton: #f5f7f7;
     background: var(--backgroundPrimary);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     font-size: 10px;
     font-weight: 700;
     color: var(--textPrimary)
@@ -2309,7 +2322,7 @@ button.twitch[data-v-adb60058] {
     border-radius: 12px;
     font-size: 18px;
     font-weight: 700;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'jackbox-font';
     background-color: var(--accent);
     color: var(--textButton);
     line-height: 1.5;
@@ -2536,7 +2549,7 @@ button.twitch[data-v-adb60058] {
 
 .toast.broadcaster[data-v-591e1c35] {
     color: #0c0c0c;
-    font-family: Rubik, sans-serif;
+    font-family: 'jackbox-font';
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
