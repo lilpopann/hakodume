@@ -13647,7 +13647,7 @@ var tae = M$((nae, nI) => {
             isPublic: !0,
             directory: "pp3/fakinit"
         }, {
-            name: "シャート",
+            name: "Tee K.O.",
             tag: "awshirt",
             wrapper: "marionette",
             isPublic: !0,
@@ -13869,7 +13869,7 @@ var tae = M$((nae, nI) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "シャート",
+            name: "Ｔ・競妖",
             tag: "awshirt-tjsp",
             wrapper: "vue",
             isPublic: !0,
@@ -29044,7 +29044,8 @@ de tu lista de partidas anteriores.`,
             target: "_blank",
             href: "https://www.instagram.com/playjackboxgames",
             onClick: t[10] || (t[10] = f => e.onLinkClick("https://www.instagram.com/playjackboxgames"))
-        })]), z("li", Nse, [z("a", Lse, Ce(e.version), 1)])])])
+        })]), z("li", Nse, [z("p", Lse, Ce("5.93.0"), 1), z("p", Lse, Ce("（0.1・デモ版） ★「Ｔ競妖」"), 1)])])])
+		//VERSION NUMBER
     }
     const Pse = bt(Tse, [
             ["render", $se],

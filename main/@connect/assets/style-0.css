@@ -5443,7 +5443,8 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .nav li.version[data-v-1e5a97d3] {
-    padding: 0
+    padding: 0;
+	font-size: 130%
 }
 
 .nav li.version a[data-v-1e5a97d3] {
@@ -5509,7 +5510,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     display: inline-block;
     width: 40px;
     height: 40px;
-    margin: 7px 10px;
+    margin: 0px 10px;
     border: none;
     border-radius: 10px;
     background-size: contain;
