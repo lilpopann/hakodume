@@ -13869,7 +13869,7 @@ var tae = M$((nae, nI) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "Ｔ・競妖",
+            name: "Ｔ競妖",
             tag: "awshirt-tjsp",
             wrapper: "vue",
             isPublic: !0,
