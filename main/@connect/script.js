@@ -13647,7 +13647,7 @@ var tae = M$((nae, nI) => {
             isPublic: !0,
             directory: "pp3/fakinit"
         }, {
-            name: "Tee K.O.",
+            name: "Ｔ・競妖",
             tag: "awshirt",
             wrapper: "marionette",
             isPublic: !0,
@@ -13869,7 +13869,7 @@ var tae = M$((nae, nI) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "Ｔ👕競妖",
+            name: "Ｔ・競妖",
             tag: "awshirt-tjsp",
             wrapper: "vue",
             isPublic: !0,
