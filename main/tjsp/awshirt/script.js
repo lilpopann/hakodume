@@ -26432,6 +26432,7 @@ ${t}`
                     }
                 },
                 getImage(e) {
+					console.log(e)
                     return new fA(document.createElement("canvas"), e).renderImage()
                 },
                 onChangeDrawing(e) {
