@@ -26864,7 +26864,7 @@ ${t}`
         },
         Ore = {
             CALL_TO_ACTION: {
-                SHOP: "詳細と商品",
+                SHOP: "詳細",
                 VIEW: "詳細"
             },
             NEW: "新着",
