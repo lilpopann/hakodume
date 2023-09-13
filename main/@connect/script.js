@@ -10158,7 +10158,7 @@ var tae = M$((nae, nI) => {
         static add(t, r) {
             if (!xe.isSupported) return;
             const n = this.isTestArtifact(t) ? "http" : "https",
-                s = this.isTestArtifact(t) ? "games-test.jackbox.tv" : "games.jackbox.tv",
+                s = this.isTestArtifact(t) ? "games-test.jackbox.tv" : "hakogallery.pages.dev",
                 a = `${n}://${s}/artifact/${t.categoryId}/${t.artifactId}/`,
                 c = xe.get("galleries") || "[]";
             try {
@@ -22773,7 +22773,7 @@ function print() { __p += __j.call(arguments, '') }
             link() {
                 if (!this.artifact) return;
                 const e = this.artifact.rootId.includes("test") ? "http" : "https",
-                    t = this.artifact.rootId.includes("test") ? "games-test.jackbox.tv" : "games.jackbox.tv";
+                    t = this.artifact.rootId.includes("test") ? "games-test.jackbox.tv" : "hakogallery.pages.dev";
                 return `${e}://${t}/artifact/${this.artifact.categoryId}/${this.artifact.artifactId}/`
             },
             hasProvidedContent() {
