@@ -6103,7 +6103,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     left: 0;
     height: 50px;
     width: 100%;
-    padding: 12px 15px;
+    padding: 8px 15px;
     background: #4254F4;
     user-select: none;
     color: #fff;
@@ -6112,7 +6112,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 
 .header .logo[data-v-58d13316] {
     width: 100%;
-    height: 28px;
+    height: 38px;
     background-image: url(01da13ff.svg);
     background-size: contain;
     background-position: center;
@@ -6122,7 +6122,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 .header .hamburger[data-v-58d13316] {
     cursor: pointer;
     position: absolute;
-    top: 5px;
+    top: 8px;
     width: 24px;
     height: 20px;
     background-image: url(04d200fb.png);
