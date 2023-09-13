@@ -28173,7 +28173,7 @@ de tu lista de partidas anteriores.`,
             }])
         }, [z("a", {
             class: "card",
-            href: e.pastGame.artifact.url,
+            href: e.pastGame.artifact.url.replace('games.jackbox.tv/', 'hakogallery.pages.dev/'),
             target: "_blank",
             onClick: t[2] || (t[2] = (...c) => e.onClick && e.onClick(...c))
         }, [z("div", {
