@@ -6501,7 +6501,7 @@ a.bottom-logo[data-v-9263413f] {
     background-repeat: no-repeat
 }
 
-a.jpn-banner[data-v-08558975] {
+.theme-device a.jpn-banner[data-v-08558975] {
 	display: block;
 	width: 100%;
 	height: 140px;
@@ -6513,8 +6513,21 @@ a.jpn-banner[data-v-08558975] {
 	background-repeat: no-repeat
 }
 
-@media (prefers-color-scheme: dark) {
-	a.jpn-banner[data-v-08558975] {
+
+.theme-light a.jpn-banner[data-v-08558975] {
+	display: block;
+	width: 100%;
+	height: 140px;
+	margin: 5px auto;
+	color: transparent;
+	background-image: url(senden.svg);
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat
+}
+
+
+.theme-dark a.jpn-banner[data-v-08558975] {
 		display: block;
 		width: 100%;
 		height: 140px;
@@ -6524,7 +6537,6 @@ a.jpn-banner[data-v-08558975] {
 		background-size: contain;
 		background-position: top center;
 		background-repeat: no-repeat
-	}
 }
 
 *,
