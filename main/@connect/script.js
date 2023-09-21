@@ -28812,7 +28812,7 @@ de tu lista de partidas anteriores.`,
         },
 		JPNBanner = {
             class: "jpn-banner",
-			href: "https://www.amazon.co.jp/%E3%82%A2%E3%83%BC%E3%83%8B%E3%83%A3-%E3%81%AC%E3%81%84%E3%81%90%E3%82%8B%E3%81%BF-SPY%C3%97FAMILY-%E3%82%B9%E3%83%91%E3%82%A4%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC-%E3%82%A2%E3%83%BC%E3%83%8B%E3%83%A3%E3%83%BB%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC/dp/B0B65LLBSN"
+			href: "https://discord.gg/AKXs4fKgee"
         },
         rse = {
             key: 0,
