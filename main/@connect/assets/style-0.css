@@ -6502,15 +6502,29 @@ a.bottom-logo[data-v-9263413f] {
 }
 
 a.jpn-banner[data-v-08558975] {
-    display: block;
-    width: 100%;
-    height: 140px;
-    margin: 5px auto;
-    color: transparent;
-    background-image: url(senden.svg);
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat
+	display: block;
+	width: 100%;
+	height: 140px;
+	margin: 5px auto;
+	color: transparent;
+	background-image: url(senden.svg);
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat
+}
+
+@media (prefers-color-scheme: dark) {
+	a.jpn-banner[data-v-08558975] {
+		display: block;
+		width: 100%;
+		height: 140px;
+		margin: 5px auto;
+		color: transparent;
+		background-image: url(senden-dark.svg);
+		background-size: contain;
+		background-position: top center;
+		background-repeat: no-repeat
+	}
 }
 
 *,
