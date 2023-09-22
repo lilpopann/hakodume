@@ -27538,7 +27538,7 @@ de tu lista de partidas anteriores.`,
                 return {
                     codeLength: 4,
                     code: "",
-                    nameLength: 12,
+                    nameLength: 8,
                     name: "",
                     passwordLength: 5,
                     password: "",
