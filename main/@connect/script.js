@@ -13746,7 +13746,7 @@ var tae = M$((nae, nI) => {
             categoryId: "PatentlyStupidGame",
             shopItems: ["mugs"]
         }, {
-            name: "Trivia Murder Party 2",
+            name: "サツザツガクパーティー2",
             tag: "triviadeath2",
             wrapper: "marionette",
             isPublic: !0,
