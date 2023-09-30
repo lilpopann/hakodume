@@ -13878,7 +13878,7 @@ var tae = M$((nae, nI) => {
             shopItems: ["shirts"],
             categoryId: "TeeKOGame"
         }, {
-            name: "Trivia Murder Party 2",
+            name: "サツザツガクパーティー2",
             tag: "triviadeath2-tjsp",
             wrapper: "vue",
             isPublic: !0,
