@@ -28812,7 +28812,7 @@ de tu lista de partidas anteriores.`,
         },
 		JPNBanner = {
             class: "jpn-banner",
-			href: "https://discord.gg/MGuCC4Bkgj",
+			href: "https://discord.gg/AKXs4fKgee",
 			target: "_blank"
         },
         rse = {
